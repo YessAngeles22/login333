@@ -1,0 +1,10 @@
+Index.html
+
+{% extends 'base.html' %)
+
+{% block content %}
+<h1>Welcome to Todo List</h1>
+<p>Please login or register to access your tasks</p>
+<a href=”{{ url_for(‘login’) }}”>Login</a>
+<a href=”{{ url_for(‘register’) }}”>Register</a>
+{% endblock %}
